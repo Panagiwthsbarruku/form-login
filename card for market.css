@@ -1,0 +1,63 @@
+body{
+    background-color: aquamarine;
+  
+
+}
+
+form{
+    display: auto;
+margin: auto;
+width: 460px;
+height: 580px;
+box-sizing: border-box;
+box-shadow: 0 0 015px;
+background-color: azure;
+border-radius: 10px ;
+
+}
+
+.button1{
+    display: block;
+    margin: auto;
+    width: auto;
+    color: azure;
+    background-color: rgb(216, 20, 20);
+    margin-left: 59%;
+    
+}
+input{
+    display: flex;
+ margin: auto;
+ margin-top: 4%;
+
+}
+
+p{
+    margin-top: 0%;
+
+}
+
+h2{
+    display: block;
+    text-align: center;
+
+}
+
+.form-1{
+    display: block;
+    margin: auto;
+    width: 260px;
+    height: 130px;
+    box-sizing: border-box;
+    box-shadow: 0  0 015px;
+    background-color: azure;
+    color: black;
+    margin-top: 1%;
+    border-radius: 10px;
+
+}
+
+hr{
+
+    margin-top: 27%;
+}
