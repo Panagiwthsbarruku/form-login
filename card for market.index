@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <title>form card|panosbr</title>
+</head>
+<body>
+  <form>
+    <h2>ΕΚΔΟΣΗ ΚΑΡΤΑΣ ΠΕΛΑΤΗ</h2>
+    <div class="card"></div>
+   <input type="text"
+   <p>ΟΔΟΣ:</p>
+   <input type="text" placeholder=""<p>ΠΕΡΙΟΧΗ:</p>
+   <input type="text" placeholder="Προαιρετικό" <p>ΤΗΛΕΦΩΝΟ:</p>
+    <input type="text"  placeholder="" <p>ΤΚ:</p>
+   <input type="text" placeholder="Προαιρετικό" <p>ΑΡΙΘΜΟΣ:</p>
+   <input type="text" <p>ΠΟΛΗ:</p>
+   <input type="text" <p>ΚΙΝΗΤΟ:</p>
+   <input type="text"  placeholder="Κάρτα"<p>ΤΥΠΟΣ ΚΑΡΤΑΣ:</p>
+   <button class="button1">ΑποστολήΣτοιχείων</button>
+  </form>
+  <div class="form-1">
+    <hr>
+  Υπογράψτε Εδώ
+  <hr>
+</div>
+   
+</body>
+</html>
