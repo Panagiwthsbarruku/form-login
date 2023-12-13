@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" async defer></script>
+    <title>Document</title>
+</head>
+<body>
+<form action="action.page.php">
+    <h1>Register</h1>
+        <input type="text" placeholder="First name">
+        <input type="text" placeholder="Last name">
+        <input type="text" placeholder="PhoneNumber">
+        <input type="text" placeholder="gmail">
+        <button onclick="myFunction()">Register</button>
+      </form>
+  <style>
+        body{
+    background-color: rgb(255, 255, 255);
+}
+  h1{
+    text-align: center;
+    color: aliceblue;
+}
+  form{
+    display: block;
+margin: auto;
+   box-sizing: border-box;
+   box-shadow: 0 0 015px #d6d6d6;
+   width: 280px;
+   height: 390px;
+   border-radius: 5px;
+    margin-top: 10%;
+    border: none;
+    border-radius: 10px;
+    background-color: #5b5555;
+}
+  input{
+    display: block;
+    margin: auto;
+    border: none;
+ background-color: #a2a0a0;
+ margin-top: 3%;
+ height: 9%;
+ border-radius: 20px;
+ margin-top: 14%;
+}
+  button{
+    display: block;
+  margin: auto;
+  margin-top: 6%;
+  border: none;
+  background-color: #938f8f;
+  border-radius: 10px;
+  color: aliceblue;
+  
+}
+  span{
+    display: block;
+    margin: auto;
+    margin-left: 30%;
+    margin-top: 10%;
+    color: aliceblue;
+}
+  a{
+    display: block;
+    margin: auto;
+    margin-left: 60%;
+    margin-top: -6%;
+  }
+  
+
+  </style>
+
+</body>
+</html>
