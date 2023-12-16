@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResetPassword</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <p>OTP sent pau....12@gmail.com</p>
+    <h1>Enter OTP</h1>
+    <div class="otp-field">
+        <input type="text" maxlength="1" />
+        <input type="text" maxlength="1" />
+        <input class="space" type="text" maxlength="1" />
+        <input type="text" maxlength="1" />
+        <input type="text" maxlength="1" />
+        <input type="text" maxlength="1" />
+    </div>       
+    <button class="btn btn-success"><i class="fas fa-check-circle"></i> Success</button>
+ <style>
+  body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #414145;
+  height: 100vh;
+  color: #ffffff;
+}
+.otp-field {
+  display: flex;
+  color: #fff;
+}
+.otp-field input {
+  width: 24px;
+  font-size: 32px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 2px;
+  border: 2px solid #55525c;
+  background: #21232d;
+  font-weight: bold;
+  color: #fff1f1;
+  outline: none;
+  transition: all 0.1s;
+}
+.otp-field input:focus {
+  border: 2px solid #a527ff;
+  box-shadow: 0 0 2px 2px #a527ff6a;
+}
+.disabled {
+  opacity: 0.5;
+}
+.space {
+  margin-right: 1rem !important;
+}
+
+button{
+   display: block;
+   margin: auto;
+   background-color: rgb(0, 181, 9);
+   color: #fff;
+   border: none;
+   border-radius: 15px;
+   width: 120px;
+   height: 40px;
+}
+      </style>
+</body>
+</html>
