@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Hedvig+Letters+Serif:opsz@12..24&family=Inter&family=Poppins:ital,wght@1,200&family=Preahvihear&family=Roboto&family=Russo+One&display=swap');
+ body{
+    background-color: #000;
+ }
+ 
+form{
+    display: block;
+    margin: auto;
+    width: 230px;
+    height: 360px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow:  0 0 015px #3ce5ff,
+    0  0 015px #fb4f4f,
+    0 0 014px #62b33a;
+    border-radius: 15px;
+    margin-top: 7%;
+}
+
+button{
+    display: block;
+    margin: auto;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 17px;
+    background-color: rgb(65, 65, 204);
+    color: azure;
+ margin-top: 20%;
+}
+
+h1{
+    text-align: center;
+    color: azure;
+
+}
+span{
+    color: aliceblue;
+    margin: auto;
+    display: block;
+    float: left;
+    margin-top: 50%;
+    margin-left: 40%;
+}
+
+a{
+    display: block;
+    float: right;
+    margin-top: 50%;
+    margin-right: 6%;
+}
+
+input{
+    display: block;
+    margin: auto;
+    margin-top: 7%;
+    border: none;
+    border-radius: 10px;
+    background-color: #838080;
+    height: 30px;
+    width: 160px;
+}
+::placeholder{
+    color: aliceblue;
+    display: block;
+}
