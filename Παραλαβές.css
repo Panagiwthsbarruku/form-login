@@ -1,0 +1,54 @@
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 200%
+}
+li{
+    float: left;
+    margin-left: 1%;
+}
+li a{
+    display: block;
+    color: rgb(4, 5, 5);
+    text-align: center;
+    padding: 24px , 26px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #b8b4b4;
+}
+
+h1{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: rgb(18, 18, 251);
+    background-color: rgb(151, 151, 225);
+
+}
+h2{
+    text-align: center;
+    color: blue;
+    background-color: rgb(235, 246, 246);
+}
+
+label{
+    color: blue;
+}
+
+.fa-plus{
+ margin-left: 0%;
+ background-color: rgb(219, 211, 211);
+ width: 18%;
+ height: 15px;
+ border-radius: 10px;
+ margin-left: 2%;
+}
+input{
+  background-color: rgb(135, 135, 251);
+  color: blue;
+}
