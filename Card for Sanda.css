@@ -1,0 +1,82 @@
+@import url();
+body{
+    background-color: beige;
+     background-image: url("th\ \(2\).jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% 100%;
+ 
+}
+.card{
+    display: block;
+    margin: auto;
+ box-sizing: border-box;
+ box-shadow: 0 0 0 25px #bd0000;
+ width: 290px;
+ height: 470px;
+  margin-top: 5%;
+  border-radius: 16px;
+
+}
+
+h2{
+    color: rgb(255, 0, 4);
+
+}
+
+img{
+    border-radius: 10px;
+    width: 150px;
+    height: 110px;
+    display: block;
+    margin: auto;
+}
+
+h3{
+    display: block;
+    margin: auto;
+    margin-left: 30%;
+    color: azure;
+}
+input{
+    display: block;
+    margin: auto;
+    border: none;
+    width: 170px;
+    height: 20px;
+border-radius: 10px;
+         
+}
+label{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    color: aliceblue;
+}
+p{
+    box-sizing: border-box;
+    box-shadow: 15px #c9c9c9;
+    color: azure;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    border: none;
+    background-color: #e71e1e;
+    border-radius: 10px;
+    color: azure;
+}
+
+img{
+    border: none;
+
+}
+p{
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+box-shadow:  0 0 015px #00000000;
+
+}
