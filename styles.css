@@ -1,0 +1,82 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+     background-color: #f0f0f0;
+     font-family: Arial, sans-serif;
+}
+   
+.login-container {
+     background-color: #fff;
+     max-width: 300px;
+     margin: 100px auto;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+   
+   h2 {
+     text-align: center;
+}
+   
+   form {
+     margin-top: 20px;
+}
+   
+input[type="email"],
+input[type="password"],
+   button {
+     width: 90%;
+     padding: 10px;
+     margin-top: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+}
+   
+   button[type="submit"] {
+     background-color: #007bff;
+     color: #fff;
+     cursor: pointer;
+      font-weight: 600;
+      width: 97%;
+}
+   
+   .social-login {
+     margin-top: 20px;
+     text-align: center;
+}
+   
+   .social-login p {
+     margin-bottom: 10px;
+}
+   
+   .google-btn,
+   .apple-btn {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+}
+   
+.google-btn img,
+.apple-btn img {
+     width: 20px;
+     margin-right: 10px;
+     border-radius: 15pc;
+     border: none;
+}
+   
+.google-btn {
+     background-color: #db4437;
+     color: #fff;
+     margin-bottom: 10px;
+}
+   
+.apple-btn {
+     background-color: #000;
+     color: #fff;
+}
+   
